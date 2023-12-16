@@ -37,3 +37,5 @@ const getCode = (char: string): number =>
   char.charCodeAt(0) - "a".charCodeAt(0);
 
 const buildHash = (frequency: number[]): string => frequency.toString();
+
+export { groupAnagrams };

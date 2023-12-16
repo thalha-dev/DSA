@@ -26,3 +26,5 @@ const topKFrequent = function (nums: number[], k: number): number[] {
 };
 
 console.log(topKFrequent([1, 1, 1, 2, 2, 3, 3, 3], 2));
+
+export { topKFrequent };

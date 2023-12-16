@@ -46,3 +46,5 @@ function isAnagram(s: string, t: string): boolean {
 }
 
 console.log(isAnagram("anagram", "nagaram"));
+
+export { isAnagram };

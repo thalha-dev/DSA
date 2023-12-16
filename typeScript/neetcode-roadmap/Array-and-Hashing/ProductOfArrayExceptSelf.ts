@@ -18,3 +18,5 @@ function productExceptSelf(nums: number[]): number[] {
 }
 
 console.log(productExceptSelf([1, 2, 3, 4]));
+
+export { productExceptSelf };

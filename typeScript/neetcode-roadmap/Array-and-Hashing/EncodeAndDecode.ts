@@ -18,4 +18,4 @@ function decode(str: string): string[] {
   return decodedWords;
 }
 
-export {};
+export { encode, decode };
